@@ -1,0 +1,29 @@
+
+img {
+    image-rendering: pixelated;
+    src : "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+}
+
+#Player{
+    width: 18px; 
+    height: 22px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -9px 0 0 -10px;
+    background-position: -7px -11px;
+    background-image: url('Assets/PlayerSheet.png');
+    z-index:10;
+}
+
+#TestTile{
+    width: 180px; 
+    height: 148px;  
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    margin: -9px 0 0 -10px;
+    background-position: -3px -3px;
+    background-image: url('Assets/Home.png');
+    z-index:9;
+}
